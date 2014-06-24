@@ -24,6 +24,8 @@ gem 'turbolinks', '1.1.1'
 
 gem 'jbuilder', '1.0.2'
 
+gem 'execjs', '1.2.4'
+
 group :doc do
   gem 'sdoc', require: false
 end
