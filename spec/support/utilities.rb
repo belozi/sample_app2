@@ -1,3 +1,5 @@
+include ApplicationHelper
+
 def full_title(page_title)
 	base_title = "blittered"
 	if page_title.empty?
