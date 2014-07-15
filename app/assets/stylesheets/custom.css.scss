@@ -144,6 +144,28 @@ aside {
 	}
 }
 
+.stats {
+	overflow: auto;
+	a{ 
+		float: left;
+		padding: 0 10px;
+		border-left: 1px solid $grayLighter;
+		color: gray;
+		&:first-child {
+			padding-left: 0;
+			border: 0;
+		}
+		&:hover {
+			text-decoration: none;
+			folor: $blue;
+		}
+	}
+
+	strong {
+		display: block;
+	}
+}
+
 /* forms */
 
 input, textarea, select, .uneditable-input {
@@ -211,3 +233,4 @@ input {
 		margin-bottom: 5px;
 	}
 }
+
